@@ -130,6 +130,7 @@ table {
 .kolom1 a:hover {
     color: white;
     display: block;
+    text-decoration: underline;
 }
 
 .pendidikan table {
