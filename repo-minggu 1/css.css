@@ -1,0 +1,122 @@
+*{ /*defaul*/
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+a{
+    text-decoration: none; /*untk menghilngkn garis bawah pd tulisan*/
+}
+
+.medsos{ /*background u medsos*/
+    padding: 10px 0;
+    background-color: plum;
+}
+
+.medsos ul li{
+    display: inline-block; /*membuat icon medsos menjadi horizontal*/
+    margin-right: 15px; /*jarak setiap icon*/
+}
+
+.container{   /*unt meletakkan posisi icon medsos ditngh*/
+    width: 90%;
+    margin:0 auto; /*atas-bawah,kiri-kanan*/
+}
+
+.container::after{ /*agar h1 dan h2 terpisah*/ 
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header h1{
+    float: left;
+    padding: 15px 0;
+    color:purple;
+}
+
+header ul{
+    float: right; /*posisi home about product sepesial jasa*/
+}
+
+header ul li{
+    display: inline-block;    
+}
+
+header ul li a{
+    padding: 25px 20px; /*atas-bawah,kiri-kanan*/
+    display: inline-block;
+}
+
+header ul li a:hover{ /*ketika di sentuh mengalami perubahn warna*/
+    background-color:pink; 
+    color:purple;
+}
+
+
+.logo{ /*latihan=tampilan awal */
+    height:59vh;    
+    background-image: url("logo1.png");
+    background-size: cover;
+    position: relative;/*menjalankan warna transparant agar tetap ada background logonya*/
+    display: flex;
+    justify-content: center; /*tulisan welcome... di tengah*/
+    align-items:flex-end;/*tulisan welcome berada di bawah*/
+}
+
+.active{ /*unyk halaman aktif*/
+    background-color:pink; 
+    color:purple;
+}
+
+.logo::after{ 
+    content: ""; /*menampilkan warna transparantnya*/
+    display: block;
+    position: absolute;/*menampilkan warna transparant*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(242, 171, 253, 0.199); /*memberikan efek warna dan transpatant pada logo h2*/
+}
+
+section{
+    padding: 50px 0; /* jrak unt logo*/
+
+}
+
+section h3{
+    text-align: center;
+    padding: 23px 0;
+    color: purple;
+    margin-bottom: 30px; /*agar jarak about dgn teks agak jauh*/
+    margin-top: 10px;
+}
+
+.about p{
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+footer{
+    padding: 27px 0;
+    background-color:plum;
+    color: blueviolet;
+    text-align: center;
+}
+
+.about .container h3{
+    text-align: center;
+
+
+}
+.about {
+    background-image:url("about6.jpg") ;
+    background-size: cover;
+}
+
+img{
+    width: 33px;
+    height: 30px;
+}
