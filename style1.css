@@ -1,0 +1,157 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open sans", sans-serif;
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-right: 200px;
+}
+
+h1 {
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 80px;
+    margin-bottom: 15px;
+    color: white;
+    width: 100%;
+    line-height: 50px;
+    text-align: left;
+    margin-top: 40%;
+}
+
+.kolom p {
+    font-family: monospace;
+    color: white;
+    width: 100%;
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 20%;
+}
+
+h2 {
+    margin-top: 250px;
+    margin-bottom: 50px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+}
+
+h3 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-size: 65px;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+}
+
+table {
+    color: white;
+    margin-left: 150px;
+    display: block;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.kolom1 a:link {
+    color: white;
+    display: block;
+}
+
+.kolom1 a:hover {
+    color: white;
+    display: block;
+    text-decoration: underline;
+}
+
+.pendidikan table {
+    font-size: 23px;
+    margin-bottom: 60px;
+}
+
+.kolom1 p {
+    font-family: monospace;
+    color: white;
+    width: 95%;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 40px;
+}
+
+.portofolio h4{
+    font-size: 65px;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 70px;
+}
+
+.portofolio p{
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 150px;
+    margin-bottom: 25px;
+}
+
+.portofolio video {
+    margin-left: 260px;
+    margin-bottom: 90px;
+}
+
+.portofolio object{
+    margin-left: 150px;
+    margin-bottom: 90px;
+}
+
+.story h5{
+    font-size: 65px;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+
+iframe{
+    margin-left: 170px;
+    margin-bottom: 60px;
+}
+.story p{
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.story audio{
+    margin-left: 150px;
+    margin-bottom: 200px;
+}
